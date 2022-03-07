@@ -11,19 +11,21 @@
     <div class="container">
         <div class="info">
             <img src="./img/photo-512x512.jpg" alt="Мое фото" class="avatar">
-            <h1>Татьяна Якушонок</h1>
-            <p>Frontend developer</p>
-            <p>Добро пожаловать на мой <strong>сайт портфолио</strong>. Я занимаюсь разработкой сайтов и приложений.
-            Изучаю HTML, CSS, JavaScript. В данный момент учусь на курсе RS School, закончила stage 0.
-            С 13 марта начинаю изучение stage 1.
-            </p>
+            <div class="info-text">
+                <h1>Татьяна Якушонок</h1>
+                <h2>Frontend developer</h2>
+                <p>Добро пожаловать на мой <strong>сайт портфолио</strong>. Я занимаюсь разработкой сайтов и приложений.
+                Изучаю HTML, CSS, JavaScript. В данный момент учусь на курсе RS School, закончила stage 0.
+                С 13 марта начинаю изучение stage 1.
+                </p>
 
-            <h4>Мои контакты</h4>
-            <a href="https://vk.com/tatiana_yakushonok" target="_blank">Вконтакте</a>
-            <a href="https://www.facebook.com/tatiana.yakushonok"target="_blank">Facebook</a>
-            <a href="https://t.me/tatianaty" target="_blank">Telegram</a>
-            <a href="https://api.whatsapp.com/send/?phone=79045747680" target="_blank">Whatsapp</a>
-            <a href="ttps://discordapp.com/users/хххххххххххххххххх/" target="_blank">Discord</a>
+                <h4>Мои контакты</h4>
+                <a href="https://vk.com/tatiana_yakushonok" target="_blank">Вконтакте |</a>
+                <a href="https://www.facebook.com/tatiana.yakushonok"target="_blank">Facebook |</a>
+                <a href="https://t.me/tatianaty" target="_blank">Telegram |</a>
+                <a href="https://api.whatsapp.com/send/?phone=79045747680" target="_blank">Whatsapp |</a>
+                <a href="ttps://discordapp.com/users/хххххххххххххххххх/" target="_blank">Discord</a>
+            </div>
         </div>
     
         <div class="card bg-yellow">
@@ -46,7 +48,7 @@
         </div>
         
         <div class="card bg-red">
-            <h2>Мои работы</h2>
+            <h2 class="header-project">Мои работы</h2>
             <ul class="link">
                 <li class="link-list">
                     <img class="card-img" src="./img/portfolio.png" alt="Project 1">
@@ -68,19 +70,26 @@
         </div>
 
         <div class="contact">
-        <h2>Связаться со мной</h2>
+            <h2>Связаться со мной</h2>
             <form action="/">
-                <label for="name">Ваше имя:</label>
-                <input type="text" id="name" placeholder="Введите ваше имя...">
-                <br>
-                <label for="email">Ваш e-mail:</label>
-                <input type="email" id="email" placeholder="Введите ваш e-mail...">
-                <br>
-                <label for="text">Ваше сообщение:</label>
-                <br>
-                <textarea name="text" id="text" cols="30" rows="10"></textarea>
-                <br>
-                <input type="submit" value="Связаться">
+                <div class="row">
+                    <div class="form-group">
+                        <label for="name">Ваше имя:</label>
+                        <input type="text" id="name" placeholder="Введите ваше имя...">
+                    </div>
+                
+                    <div class="form-group">
+                        <label for="email">Ваш e-mail:</label>
+                        <input type="email" id="email" placeholder="Введите ваш e-mail...">
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="text">Ваше сообщение:</label>
+                    <textarea name="text" id="text" cols="10" rows="5"></textarea>
+                </div>
+                
+                <input class="btn" type="submit" value="Отправить">
             </form>
         </div>
     </div>
