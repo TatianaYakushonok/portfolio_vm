@@ -4,56 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./styles/style.css">
     <title>Portfolio</title>
 </head>
 <body>
-    <img src="./img/My_photo2.png" alt="Мое фото" width="200">
-    <h1>Татьяна Якушонок</h1>
-    <p><em>Frontend developer</em></p>
-    <p>Добро пожаловать на мой сайт портфолио. Я занимаюсь разработкой сайтов и приложений.
-       Изучаю HTML, CSS, JavaScript. В данный момент учусь на курсе RS School, закончила stage 0.
-       С 13 марта начинаю изучение stage 1.
-    </p>
-    <hr>
-    <h2>Мои контакты</h2>
-    <ul>
-        <li>Whatsapp: 8(904)-574-7680</li>
-        <li>Telegram: @tatianaty</li>
-        <li>Discord: Tatiana (tatianayakushonok)</li>
-        <li>E-mail: yakush2@yandex.ru</li>
-    </ul>
-    <hr>
-    <h2>Основные навыки</h2>
-    <ol>
-        <li>Git, Github</li>
-        <li>HTML5</li>
-        <li>CSS3</li>
-        <li>JavaScript</li>
-    </ol>
-    <hr>
-    <h2>Обучение</h2>
-    <ul>
-        <li>HTML and CSS Tutorial on the <a href="https://htmlacademy.ru" target="_blank">htmlacademy.ru</a></li>
-        <li>JavaScript Manual on <a href="https://learn.javascript.ru" target="_blank">learn.javascript.ru</a></li>
-        <li>RS School Course <a href="https://rs.school/js/" target="_blank">“JavaScript/Front-end. Stage 0”</a></li>
-    </ul>
-    <hr>
-    <h2>Связаться со мной</h2>
-    <form action="/">
-        <label for="name">Ваше имя:</label>
-        <input type="text" id="name" placeholder="Введите ваше имя...">
-        <br>
-        <label for="email">Ваш e-mail:</label>
-        <input type="email" id="email" placeholder="Введите ваш e-mail...">
-        <br>
-        <label for="text">Ваше сообщение:</label>
-        <br>
-        <textarea name="text" id="text" cols="30" rows="10"></textarea>
-        <br>
-        <input type="submit" value="Связаться">
-    </form>
-    <hr>
-    <h2>Мои работы</h2>
-    <a href="portfolio.html" target="_blank">Выполненные работы</a>
+    <div class="container">
+        <div class="info">
+            <img src="./img/photo-512x512.jpg" alt="Мое фото" class="avatar">
+            <h1>Татьяна Якушонок</h1>
+            <p>Frontend developer</p>
+            <p>Добро пожаловать на мой <strong>сайт портфолио</strong>. Я занимаюсь разработкой сайтов и приложений.
+            Изучаю HTML, CSS, JavaScript. В данный момент учусь на курсе RS School, закончила stage 0.
+            С 13 марта начинаю изучение stage 1.
+            </p>
+
+            <h4>Мои контакты</h4>
+            <a href="https://vk.com/tatiana_yakushonok" target="_blank">Вконтакте</a>
+            <a href="https://www.facebook.com/tatiana.yakushonok"target="_blank">Facebook</a>
+            <a href="https://t.me/tatianaty" target="_blank">Telegram</a>
+            <a href="https://api.whatsapp.com/send/?phone=79045747680" target="_blank">Whatsapp</a>
+            <a href="ttps://discordapp.com/users/хххххххххххххххххх/" target="_blank">Discord</a>
+        </div>
+    
+        <div class="card bg-yellow">
+            <h2>Основные навыки</h2>
+            <ul class="list">
+                <li>Git, Github</li>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+            </ul>
+        </div>
+       
+        <div class="card bg-green">
+            <h2>Обучение</h2>
+            <ul class="list">
+                <li>HTML and CSS Tutorial on the <a href="https://htmlacademy.ru" target="_blank">htmlacademy.ru</a></li>
+                <li>JavaScript Manual on <a href="https://learn.javascript.ru" target="_blank">learn.javascript.ru</a></li>
+                <li>RS School Course <a href="https://rs.school/js/" target="_blank">“JavaScript/Front-end. Stage 0”</a></li>
+            </ul>
+        </div>
+        
+        <div class="card bg-red">
+            <h2>Мои работы</h2>
+            <ul class="link-list">
+                <li><img src="" alt="Project 1"></li>
+                <li><img src="" alt="Project 2"></li>
+                <li><img src="" alt="Project 3"></li>
+            </ul>
+        </div>
+
+        <div class="contact">
+        <h2>Связаться со мной</h2>
+            <form action="/">
+                <label for="name">Ваше имя:</label>
+                <input type="text" id="name" placeholder="Введите ваше имя...">
+                <br>
+                <label for="email">Ваш e-mail:</label>
+                <input type="email" id="email" placeholder="Введите ваш e-mail...">
+                <br>
+                <label for="text">Ваше сообщение:</label>
+                <br>
+                <textarea name="text" id="text" cols="30" rows="10"></textarea>
+                <br>
+                <input type="submit" value="Связаться">
+            </form>
+        </div>
+    </div>
 </body>
 </html>
