@@ -1,1 +1,1 @@
-https://tatianayakushonok.github.io/portfolio_vm/
+https://tatianayakushonok.github.io/portfolio_vm/portfolio-vm
