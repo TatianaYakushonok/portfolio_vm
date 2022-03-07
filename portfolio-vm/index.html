@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <div class="container">
+        <div class="info">
+            <img src="./img/photo-512x512.jpg" alt="Мое фото" class="avatar">
+            <div class="info-text">
+                <h1>Татьяна Якушонок</h1>
+                <h2>Frontend developer</h2>
+                <p>Добро пожаловать на мой <strong>сайт портфолио</strong>. Я занимаюсь разработкой сайтов и приложений.
+                Изучаю HTML, CSS, JavaScript. В данный момент учусь на курсе RS School, закончила stage 0.
+                С 13 марта начинаю изучение stage 1.
+                </p>
+
+                <h4>Мои контакты</h4>
+                <a href="https://vk.com/tatiana_yakushonok" target="_blank">Вконтакте |</a>
+                <a href="https://www.facebook.com/tatiana.yakushonok"target="_blank">Facebook |</a>
+                <a href="https://t.me/tatianaty" target="_blank">Telegram |</a>
+                <a href="https://api.whatsapp.com/send/?phone=79045747680" target="_blank">Whatsapp |</a>
+                <a href="ttps://discordapp.com/users/хххххххххххххххххх/" target="_blank">Discord</a>
+            </div>
+        </div>
+    
+        <div class="card bg-yellow">
+            <h2>Основные навыки</h2>
+            <ul class="list">
+                <li>Git, Github</li>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+            </ul>
+        </div>
+       
+        <div class="card bg-green">
+            <h2>Обучение</h2>
+            <ul class="list">
+                <li>HTML and CSS Tutorial on the <a href="https://htmlacademy.ru" target="_blank">htmlacademy.ru</a></li>
+                <li>JavaScript Manual on <a href="https://learn.javascript.ru" target="_blank">learn.javascript.ru</a></li>
+                <li>RS School Course <a href="https://rs.school/js/" target="_blank">“JavaScript/Front-end. Stage 0”</a></li>
+            </ul>
+        </div>
+        
+        <div class="card bg-red">
+            <h2 class="header-project">Мои работы</h2>
+            <ul class="link">
+                <li class="link-list">
+                    <img class="card-img" src="./img/portfolio.png" alt="Project 1">
+                    <a href="https://tatianayakushonok.github.io/Rs-school_stage_0/portfolio/" target="_blank">Портфолио для фотографа</a>
+                </li>
+                <li class="link-list">
+                    <img class="card-img" src="./img/video-player.png" alt="Project 2">
+                    <a href="https://tatianayakushonok.github.io/Rs-school_stage_0/portfolio/#video" target="_blank">Видео плеер</a>
+                </li>
+                <li class="link-list">
+                    <img class="card-img" src="./img/image-gallery.png" alt="Project 3">
+                    <a href="https://tatianayakushonok.github.io/Rs-school_stage_0/image-gallery/" target="_blank">Галерея изображений API</a>
+                </li>
+                <li class="link-list">
+                    <img class="card-img" src="./img/game.png" alt="Project 3">
+                    <a href="https://tatianayakushonok.github.io/Rs-school_stage_0/tic-tac-toe/" target="_blank">Игра "Крестики-нолики"</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="contact">
+            <h2>Связаться со мной</h2>
+            <form action="/">
+                <div class="row">
+                    <div class="form-group">
+                        <label for="name">Ваше имя:</label>
+                        <input type="text" id="name" placeholder="Введите ваше имя...">
+                    </div>
+                
+                    <div class="form-group">
+                        <label for="email">Ваш e-mail:</label>
+                        <input type="email" id="email" placeholder="Введите ваш e-mail...">
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="text">Ваше сообщение:</label>
+                    <textarea name="text" id="text" cols="10" rows="5"></textarea>
+                </div>
+                
+                <input class="btn" type="submit" value="Отправить">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
